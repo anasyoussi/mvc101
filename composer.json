@@ -1,0 +1,19 @@
+{
+    "name": "anasyoussi/php-mvc",
+    "autoload": {
+        "psr-4": {
+            "App\\": "App",
+            "SecTheater\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "anasyoussi",
+            "email": "18307320+anasyoussi@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.4",
+        "symfony/var-dumper": "^6.0"
+    }
+}
